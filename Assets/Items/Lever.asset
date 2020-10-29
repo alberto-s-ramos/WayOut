@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d152f991567497fb4b2fa670d68051, type: 3}
+  m_Name: Lever
+  m_EditorClassIdentifier: 
+  name: Lever
+  icon: {fileID: 21300000, guid: 487049a7d56a34b68931d774a2eed0d9, type: 3}
+  game_object: {fileID: 4838944917369286206, guid: 9caa2c8e9c8f64d77ba564be74655f9b,
+    type: 3}
+  isDefaultItem: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tese_Scene_Intro.unity
+    guid: 9a04c7426d69d4cdcbec1fd625429192
+  - enabled: 1
+    path: Assets/Scenes/A/A1.unity
+    guid: 8b193b5d5ef7d4356aa9fa12ec3ef9ae
+  - enabled: 1
+    path: Assets/Scenes/A/A2.unity
+    guid: bde3e656bab824fcf8b033550f0475d7
+  - enabled: 1
+    path: Assets/Scenes/B/B2.unity
+    guid: b877946ce020c4f8f9236199e4e33e3a
+  - enabled: 1
+    path: Assets/Scenes/B/B1.unity
+    guid: f61cd3dd7e3b04ee1884ceb17372900b
+  m_configObjects: {}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d152f991567497fb4b2fa670d68051, type: 3}
+  m_Name: Key_Golden
+  m_EditorClassIdentifier: 
+  name: KeyGolden
+  icon: {fileID: 21300000, guid: b1e7d42ec4e934fd28c7d799e2f20d6d, type: 3}
+  game_object: {fileID: 7447022692855013307, guid: 6b07ab31d47036645833e234477aa56f,
+    type: 3}
+  isDefaultItem: 0

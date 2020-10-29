@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: b6d2f7e5690884520bf20a0252e775a1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: breast.L
+    100002: breast.L 1
+    100004: breast.L_end
+    100006: breast.L_end 1
+    100008: breast.R
+    100010: breast.R 1
+    100012: breast.R_end
+    100014: breast.R_end 1
+    100016: Character_Goblin_Female
+    100018: Character_Goblin_Male
+    100020: foot.L
+    100022: foot.L 1
+    100024: foot.R
+    100026: foot.R 1
+    100028: forearm.L
+    100030: forearm.L 1
+    100032: forearm.R
+    100034: forearm.R 1
+    100036: //RootNode
+    100038: hand.L
+    100040: hand.L 1
+    100042: hand.L_end
+    100044: hand.L_end 1
+    100046: hand.R
+    100048: hand.R 1
+    100050: hand.R_end
+    100052: hand.R_end 1
+    100054: heel.02.L
+    100056: heel.02.L 1
+    100058: heel.02.L_end
+    100060: heel.02.L_end 1
+    100062: heel.02.R
+    100064: heel.02.R 1
+    100066: heel.02.R_end
+    100068: heel.02.R_end 1
+    100070: metarig
+    100072: metarig.001
+    100074: pelvis.L
+    100076: pelvis.L 1
+    100078: pelvis.L_end
+    100080: pelvis.L_end 1
+    100082: pelvis.R
+    100084: pelvis.R 1
+    100086: pelvis.R_end
+    100088: pelvis.R_end 1
+    100090: shin.L
+    100092: shin.L 1
+    100094: shin.R
+    100096: shin.R 1
+    100098: shoulder.L
+    100100: shoulder.L 1
+    100102: shoulder.R
+    100104: shoulder.R 1
+    100106: spine
+    100108: spine 1
+    100110: spine.001
+    100112: spine.001 1
+    100114: spine.002
+    100116: spine.002 1
+    100118: spine.003
+    100120: spine.003 1
+    100122: spine.004
+    100124: spine.004 1
+    100126: spine.005
+    100128: spine.005 1
+    100130: spine.006
+    100132: spine.006 1
+    100134: spine.006_end
+    100136: spine.006_end 1
+    100138: thigh.L
+    100140: thigh.L 1
+    100142: thigh.R
+    100144: thigh.R 1
+    100146: toe.L
+    100148: toe.L 1
+    100150: toe.L_end
+    100152: toe.L_end 1
+    100154: toe.R
+    100156: toe.R 1
+    100158: toe.R_end
+    100160: toe.R_end 1
+    100162: upper_arm.L
+    100164: upper_arm.L 1
+    100166: upper_arm.R
+    100168: upper_arm.R 1
+    400000: breast.L
+    400002: breast.L 1
+    400004: breast.L_end
+    400006: breast.L_end 1
+    400008: breast.R
+    400010: breast.R 1
+    400012: breast.R_end
+    400014: breast.R_end 1
+    400016: Character_Goblin_Female
+    400018: Character_Goblin_Male
+    400020: foot.L
+    400022: foot.L 1
+    400024: foot.R
+    400026: foot.R 1
+    400028: forearm.L
+    400030: forearm.L 1
+    400032: forearm.R
+    400034: forearm.R 1
+    400036: //RootNode
+    400038: hand.L
+    400040: hand.L 1
+    400042: hand.L_end
+    400044: hand.L_end 1
+    400046: hand.R
+    400048: hand.R 1
+    400050: hand.R_end
+    400052: hand.R_end 1
+    400054: heel.02.L
+    400056: heel.02.L 1
+    400058: heel.02.L_end
+    400060: heel.02.L_end 1
+    400062: heel.02.R
+    400064: heel.02.R 1
+    400066: heel.02.R_end
+    400068: heel.02.R_end 1
+    400070: metarig
+    400072: metarig.001
+    400074: pelvis.L
+    400076: pelvis.L 1
+    400078: pelvis.L_end
+    400080: pelvis.L_end 1
+    400082: pelvis.R
+    400084: pelvis.R 1
+    400086: pelvis.R_end
+    400088: pelvis.R_end 1
+    400090: shin.L
+    400092: shin.L 1
+    400094: shin.R
+    400096: shin.R 1
+    400098: shoulder.L
+    400100: shoulder.L 1
+    400102: shoulder.R
+    400104: shoulder.R 1
+    400106: spine
+    400108: spine 1
+    400110: spine.001
+    400112: spine.001 1
+    400114: spine.002
+    400116: spine.002 1
+    400118: spine.003
+    400120: spine.003 1
+    400122: spine.004
+    400124: spine.004 1
+    400126: spine.005
+    400128: spine.005 1
+    400130: spine.006
+    400132: spine.006 1
+    400134: spine.006_end
+    400136: spine.006_end 1
+    400138: thigh.L
+    400140: thigh.L 1
+    400142: thigh.R
+    400144: thigh.R 1
+    400146: toe.L
+    400148: toe.L 1
+    400150: toe.L_end
+    400152: toe.L_end 1
+    400154: toe.R
+    400156: toe.R 1
+    400158: toe.R_end
+    400160: toe.R_end 1
+    400162: upper_arm.L
+    400164: upper_arm.L 1
+    400166: upper_arm.R
+    400168: upper_arm.R 1
+    2100000: voodoohead_Alt2
+    4300000: Character_Goblin_Male
+    4300002: Character_Goblin_Female
+    9500000: //RootNode
+    13700000: Character_Goblin_Female
+    13700002: Character_Goblin_Male
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
