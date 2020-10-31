@@ -114,7 +114,6 @@ public class SendResults : MonoBehaviour
     public void AfterForm(string s)
     {
         gameObject.GetComponent<Menu>().enableQuestionnaire(codeName);
-        //sendEmail();
 
     }
 
@@ -259,36 +258,7 @@ public class SendResults : MonoBehaviour
 
     }
 
-  
-    public void sendEmail()
-    {
-        try
-        {
-            MailMessage mail = new MailMessage();
-
-            mail.From = new MailAddress("wayoutsender@gmail.com");
-            mail.To.Add("wayoutreceiver@gmail.com");
-            mail.Subject = "Results from " + mailToSendHeader;
-            mail.Body = mailToSend;
-
-            SmtpClient smtpServer = new SmtpClient("smtp.gmail.com");
-            smtpServer.Port = 587;
-            smtpServer.Credentials = new System.Net.NetworkCredential("wayoutsender@gmail.com", "wayoutsender1997") as ICredentialsByHost;
-            smtpServer.EnableSsl = true;
-            ServicePointManager.ServerCertificateValidationCallback =
-                delegate (object s, X509Certificate certificate, X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-                { return true; };
-            smtpServer.Send(mail);
-            Debug.Log("success "+Time.deltaTime);
-        }
-        catch (Exception ex)
-        {
-            Debug.Log("no success");
-            string erro = ex.InnerException.ToString();
-        }
-
-
-    }
+ 
 
 
 
