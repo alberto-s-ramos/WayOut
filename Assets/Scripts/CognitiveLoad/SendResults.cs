@@ -128,15 +128,6 @@ public class SendResults : MonoBehaviour
                      float moveInteractInterfaceNoti, float interactInterfaceNoti)
     {
         
-        TranslateDataToString(difficulty, codeName, gameplayTime, totalAttentionTime, activeTime,
-                      nrObjects, timeObjects,
-                      nrInventory, timeInventory,
-                      nrInstructions, timeInstructions,
-                      nrNotebook, timeNotebook,
-                      nrNoti, timeNoti,
-                      firstPstart, leversInteracted, firstPend,
-                      secondPstart, SPsInteracted, timeOrbSelection, secondPend,
-                      moveInteractInterfaceNoti, interactInterfaceNoti);
 
         this.difficulty = difficulty;
         this.codeName = codeName;
@@ -187,74 +178,7 @@ public class SendResults : MonoBehaviour
 
     }
 
-    public static void TranslateDataToString(String difficulty, String codeName, float gameplayTime, float totalAttentionTime, float activeTime,
-                     float nrObjects, float timeObjects,
-                     float nrInventory, float timeInventory,
-                     float nrInstructions, float timeInstructions,
-                     float nrNotebook, float timeNotebook,
-                     float nrNoti, float timeNoti,
-                     float firstPstart, float leversInteracted, float firstPend,
-                     float secondPstart, float SPsInteracted, float timeOrbSelection, float secondPend,
-                     float moveInteractInterfaceNoti, float interactInterfaceNoti)
-    {
-        mailToSendHeader = codeName;
-        mailToSend =
-                  "Difficulty: " + difficulty + "\n" +  
-                  "Player Code Name: " + codeName + "\n" +
-                  "Total GamePlay Time: " + gameplayTime + "\n" +
-                  "Total Attention Time: " + totalAttentionTime + "\n" +
-                  "Total Active Time: " + activeTime + "\n" +
-
-                  "\n" +
-
-                  "Nr Objects Interacted with: " + nrObjects + "\n" +
-                  "Total Time spent interacting with objects: " + timeObjects + "\n" +
-
-                   "\n" +
-
-                  "Nr of Times Inventory Was opened: " + nrInventory + "\n" +
-                  "Total Time spent with Inventory opened: " + timeInventory + "\n" +
-
-                  "\n" +
-
-                  "Nr of Times Instructions were opened: " + nrInstructions + "\n" +
-                  "Total Time spent on instructions: " + timeInstructions + "\n" +
-
-                  "\n" +
-
-                  "Nr of Times Notebook was opened: " + nrNotebook + "\n" +
-                  "Total Time spent on Notebook: " + timeNotebook + "\n" +
-
-                  "\n" +
-
-                  "Nr Notifications shown: " + nrNoti + "\n" +
-                  "Total Time notifications were on screen: " + timeNoti + "\n" +
-
-                  "\n"+
-
-                  "First Puzzle Start: " + firstPstart + "\n" +
-                  "Number of Levers interacted: " + leversInteracted + "\n" +
-                  "First Puzzle End: " + firstPend + "\n" +
-
-                  "\n" +
-
-                  "Second Puzzle Start: " + secondPstart + "\n" +
-                  "Number of SPs interacted: " + SPsInteracted + "\n" +
-                  "Total Time OrbSelection were on screen: " + timeOrbSelection + "\n" +
-                  "Second Puzzle End: " + secondPend + "\n" +
-
-                  "\n"+
-
-                  "MoveInteractInterfaceNoti: "+ moveInteractInterfaceNoti+"\n"+
-                  "InteractInterfaceNoti: " + interactInterfaceNoti + "\n" 
-
-                  ;
-
-
-
-
-
-    }
+  
 
 
 
